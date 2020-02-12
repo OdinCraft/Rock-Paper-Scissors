@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors</title>
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <h1 class="gameTitle">Rock Paper Scissors</h1>
+
+    <h2 class="choseMove">Chose a movement:</h2>
+    <div class="outterDiv">
+        <div class="movesBar">
+            <!--<p class="yourVic">Your Victories: </p>-->
+            <img id="rock"class="movesStyle"src="assets/rock.svg">
+            <img id="paper"class="movesStyle"src="assets/paper.svg">
+            <img id="scissor"class="movesStyle"src="assets/scissor.svg">
+            <!--<p class="cpuVic">CPU Victories: </p>-->
+        </div>
+    </div>
+    <div class="outterDiv">
+        <div class="responseBar">
+            <img id="fstQM"class="qMark"src="assets/question_mark.svg">
+            <p class="versus">VS</p>
+            <img id="secQM"class="qMark"src="assets/question_mark.svg">
+        </div>
+    </div>
+    <div class="outterDiv">
+        <div class="playerWins">
+            <p class="playerWinsPa">Your Wins</p>
+            <p id="playerWinScore">0</p>
+        </div>
+    </div>
+    <div class="outterDiv">
+        <div class="cpuWins">
+            <p class="cpuWinsPa">CPU Wins</p>
+            <p id="cpuWinScore">0</p>
+        </div>
+    </div>
+    <div class="outterDiv">
+        <div class="whoIs">
+            <p class="youInfo">You</p>
+            <p class="cpuInfo">CPU</p>
+        </div>
+    </div>
+    <div class="outterDiv">
+        <div class="whoWin">
+            <p id="wlMessage">You...</p>
+        </div>
+    </div>
+    </body>
+    <!--<script src="scripts/script.js"></script>-->
+    <script src="scripts/game.js"></script>
+</html>
