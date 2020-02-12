@@ -1,0 +1,2 @@
+The rock.svg, paper.svg and scissor.svg are from Sacha Jerrems.
+His dribbel page can be found here: https://dribbble.com/sachajerrems
