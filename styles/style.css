@@ -102,11 +102,14 @@ body{
 }
 
 .playerWins{
-    position: absolute;
+    width: 1%;
     margin-top:-450px;
-    padding-left:100px;
+    margin-left:200px;
+
 }
 .playerWinsPa{
+    text-align: center;
+    margin-left: 14px;
     font-size:40px;
 }
 
@@ -117,16 +120,20 @@ body{
     border-style:solid 1;
     border-radius: 5px;
     text-align: center;
-    margin-left:30px;
+    margin-left:0;
     margin-top:-20px;
 }
 
 .cpuWins{
-    position: absolute;
+
+    width: 1%;
     margin-top:-450px;
-    margin-left:1020px;
+    margin-left:900px;
+    padding-right: 340px;
 }
 .cpuWinsPa{
+    text-align: center;
+    margin-left: 45px;
     font-size:40px;
 }
 
@@ -139,4 +146,9 @@ body{
     text-align: center;
     margin-left:30px;
     margin-top:-20px;
+}
+
+.Wins{
+    display: flex;
+    justify-content: center;
 }
